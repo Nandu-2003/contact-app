@@ -1,0 +1,33 @@
+/* ContactList.css */
+
+.item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Adjust padding as needed */
+    border-bottom: 1px solid #ddd; /* Optional: Add a bottom border between items */
+    
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    margin: 5px; /* Adjust margin as needed */
+   
+    /* You can add other styles for the delete icon */
+  }
+  
+  .content {
+    flex-grow: 1;
+    margin-left: 10px; /* Add margin between icon and content */
+  }
+  .header {
+    margin-bottom: 5px; /* Add bottom margin for the name */
+  }
+  
+  .email {
+    margin-top: 5px; /* Add top margin for the email */
+  }
